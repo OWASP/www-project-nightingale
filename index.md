@@ -63,7 +63,6 @@ You can either create a docker image in your local host machine or you can direc
 - https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 - https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt
 - https://raw.githubusercontent.com/Bo0oM/fuzz.txt/master/fuzz.txt 
-
 ### OS Selection
 - Debian : Latest
 <!--Lisence-->

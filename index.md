@@ -1,22 +1,72 @@
 ---
 
 layout: col-sidebar
+altfooter: true
 title: OWASP Nightingale
-tags: example-tag
-level: 2
-type: 
-pitch: A very brief, one-line description of your project
+tags: Nightingale
+level: 4
+type: tool
+pitch: Docker for Pentesters
 
 ---
+<!--Logo and Social Links-->
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+![Nightingale Logo](https://github.com/OWASP/www-project-nightingale/blob/main/assets/images/Nightingale.png)
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+![Twitter Follow](https://twitter.com/RajaNagori7)
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+<!--Description-->
+## Description
+Docker containerization is most powerful technologies in the current market 
+so I came with the idea to develop Docker images for Pentesters.
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+Nightingle contain all the required famous tools that will be required to the pentestes at the time of Penetration Testing.
+This docker image has a base support of debian and it is completely platform Independent.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+You can either create a docker image in your local host machine or you can directly pull the docker images from the docker hub itself.
 
-type: code, tool, documentation, or other
+### Tools List
+- sqlmap
+- hawkscan
+- impact toolkit
+- assetfinder
+- xsstrike
+- wat web
+- dirseach
+- arjun
+- joonscan
+- massdns
+- strike
+- Linkfinder
+- recon-tool
+- findomain
+- shodan
+- exiftool
+- steghide
+- binwalk
+- foremost
+- traceroute
+- telnet
+- net-tools
+- iputils-ping
+- tcpdump
+- openvpn
+- whois
+- host
+- metasploit
+### Wordlist 
+- https://github.com/xmendez/wfuzz.git
+- https://github.com/danielmiessler/SecLists.git
+- https://github.com/fuzzdb-project/fuzzdb.git
+- https://github.com/daviddias/node-dirbuster.git
+- https://github.com/v0re/dirb.git
+- https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+- https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt
+- https://raw.githubusercontent.com/Bo0oM/fuzz.txt/master/fuzz.txt 
+
+### OS Selection
+- Debian : Latest
+<!--Lisence-->
+## Licensing
+This program is free software. Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed stated under GNU GENERAL PUBLIC LICENSE

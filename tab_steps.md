@@ -1,10 +1,9 @@
 ---
 title: Steps
-layout:  null
-altfooter: true
+layout:  col-sidebar
 tab: true
 order: 1
-tags: example-tag
+tags: Steps of Docker Images Creation
 
 ---
 

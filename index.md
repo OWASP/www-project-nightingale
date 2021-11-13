@@ -11,7 +11,7 @@ pitch: Docker for Pentesters
 ---
 <!--Logo and Social Links-->
 
-[Nightingale Logo](https://github.com/OWASP/www-project-nightingale/blob/main/assets/images/Nightingale.png)
+[Nightingale Logo](https://raw.githubusercontent.com/OWASP/www-project-nightingale/main/assets/images/Nightingale.png)
 
 [Twitter Follow](https://twitter.com/RajaNagori7)
 

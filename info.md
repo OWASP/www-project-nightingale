@@ -1,17 +1,19 @@
-### Nightingale Information
+<!-- ### Nightingale Information
 * [Incubator Project](#)
-* [Type of Project](#)
-* [Version 0.0.0](#)
-* [Builder](#)
-* [Breaker](#)
+* [Type of Project]()
+* [Version ](#) -->
+<!-- * [Builder](#)
+* [Breaker](#) -->
 
 ### Downloads or Social Links
-* [Download](#)
-* [Meetup](#)
+* [Download](https://github.com/RAJANAGORI/Nightingale)
+* [Linkedin](https://www.linkedin.com/in/raja-nagori/)
+* [Medium](rajanagori.medium.com)
+* [Twitter](https://twitter.com/RajaNagori7)
+* [Docker Hub](https://hub.docker.com/r/rajanagori/nightingale)
 
 ### Code Repository
-* [repo](#)
+* [repo](https://github.com/RAJANAGORI/Nightingale)
 
-### Change Log
-* [changes](#)
-
+<!-- ### Change Log
+* [changes](#) -->

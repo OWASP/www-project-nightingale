@@ -1,2 +1,2 @@
 ### Leaders
-* [Raja Nagori](mailto:rajanagori19@gmail.com)
+* [Raja Nagori](mailto:raja.nagori@owasp.org)

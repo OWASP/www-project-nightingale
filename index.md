@@ -25,35 +25,67 @@ This docker image has a base support of debian and it is completely platform Ind
 
 You can either create a docker image in your local host machine or you can directly pull the docker images from the docker hub itself.
 
-### Tools List
-- sqlmap
-- hawkscan
-- impact toolkit
-- assetfinder
-- xsstrike
-- wat web
-- dirseach
-- arjun
-- joonscan
-- massdns
-- strike
-- Linkfinder
-- recon-tool
-- findomain
-- shodan
-- exiftool
-- steghide
-- binwalk
-- foremost
-- traceroute
-- telnet
+## Tools List
+
+### Operating System Tools
+- Vim
+- zsh
+- locate
+- tree
+- htop
+- snapd
+### Compression Techniques Tools
+- unzip
+- p7zip-full
+### Development Essentials
+- git
+- ruby 
+- ruby-dev 
+- bundler 
+- bison 
+- flex 
+- autoconf 
+- automake 
+- ruby-full 
+- make 
+- curl 
+- gnupg 
+- patch 
+- ruby-bundler 
+- nasm 
+- wget 
+- smbclient
+### Programming Language Support
+- Python
+- GO
+- Nodejs
+- Ruby
+### Exploit Framework
+- Metasploit
+### Port Scanning Tools
+- Nmap
+- Masscan
+- Amass (Not Installed Yet)
+### Network Tool
+- Traceroute
+- telnt
 - net-tools
 - iputils-ping
 - tcpdump
 - openvpn
 - whois
 - host
-- metasploit
+- nmap
+### Forensics Tools
+- exiftool
+- steghide
+- binwalk
+- foremost
+### Red Team Tool
+- Impact toolkit
+### Iformation Gathering 
+- Shodan
+
 ### Wordlist 
 - https://github.com/xmendez/wfuzz.git
 - https://github.com/danielmiessler/SecLists.git

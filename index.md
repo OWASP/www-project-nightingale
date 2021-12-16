@@ -83,9 +83,8 @@ You can either create a docker image in your local host machine or you can direc
 - foremost
 ### Red Team Tool
 - Impact toolkit
-### Iformation Gathering 
+### Information Gathering 
 - Shodan
-
 ### Wordlist 
 - https://github.com/xmendez/wfuzz.git
 - https://github.com/danielmiessler/SecLists.git

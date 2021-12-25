@@ -85,6 +85,10 @@ You can either create a docker image in your local host machine or you can direc
 - Impact toolkit
 ### Information Gathering 
 - Shodan
+### Mobile Application Support (Android Only)
+- mobsf
+- adb
+- apktool
 ### Wordlist 
 - https://github.com/xmendez/wfuzz.git
 - https://github.com/danielmiessler/SecLists.git

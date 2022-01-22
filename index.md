@@ -65,7 +65,7 @@ You can either create a docker image in your local host machine or you can direc
 ### Port Scanning Tools
 - Nmap
 - Masscan
-- Amass (Not Installed Yet)
+- Amass 
 ### Network Tool
 - Traceroute
 - telnt

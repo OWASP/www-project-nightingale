@@ -46,7 +46,7 @@ You can either create a docker image in your local host machine by modifying acc
 - Forensic tools (SniffJoke, Wireshark, etc)
 - Red Team Tools (Metasploit, Ettercap, etc)
 - Information Gathering tools 
-## Tools List 
+## Tools List
 
 ### Operating System Tools
 - Vim
@@ -83,6 +83,25 @@ You can either create a docker image in your local host machine by modifying acc
 - Ruby
 ### Exploit Framework
 - Metasploit
+
+### Web VAPT Tools
+- sqlmap
+- HawkScan
+- XSStrike
+- Whatweb
+- dirsearch
+- Arjun
+- Sublist3r
+- massdns
+- LinkedFinder
+- masscan
+- jwt_tool
+- dir
+- qreplace
+- gf
+- httprobe
+- assetfinder
+- waybackurls
 ### Port Scanning Tools
 - Nmap
 - Masscan
@@ -110,8 +129,15 @@ You can either create a docker image in your local host machine by modifying acc
 - mobsf
 - adb
 - apktool
+- jadx
 ### OS Selection
 - Debian : Latest
+
+## Under Development, stay tuned !! ;-)
+- Add more tools regarding web VAPT and Mobile VAPT
+- Add more tools related to team teaming
+- Shift the complete architecture to Multi-stage build concpet in docker to reduce the time of build and size of the image.
+
 <!--Lisence-->
 ## Licensing
 This program is free software. Everyone is permitted to copy and distribute verbatim copies

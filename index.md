@@ -96,7 +96,6 @@ You can either create a docker image in your local host machine by modifying acc
 - LinkedFinder
 - masscan
 - jwt_tool
-- dir
 - qreplace
 - gf
 - httprobe

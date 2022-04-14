@@ -38,13 +38,13 @@ You can either create a docker image in your local host machine by modifying acc
 ## Tools Category
 - Operating System tools (Windows, Mac, Linux)
 - Compression tools (7zip, tar, zip)
-- Development Essentials    (Git, GitLab, etc)
+- Development Essentials (Git, GitLab, etc)
 - Programming Languages support (Python, Ruby, Java, etc)
 - Exploit Frameworks (Metasploit, Exploit-DB, etc)
-- Port Scanning tools (nmap, nikto, etc)
-- Network tools (Tcpdump, Ettercap, etc)
-- Forensic tools (SniffJoke, Wireshark, etc)
-- Red Team Tools (Metasploit, Ettercap, etc)
+- Port Scanning tools (nmap,etc)
+- Network tools (Tcpdump, etc)
+- Forensic tools (exiftool,steghide, binwalk, foremost, etc)
+- Red Team Tools (Metasploit, etc)
 - Information Gathering tools 
 ## Tools List
 

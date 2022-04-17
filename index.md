@@ -124,6 +124,9 @@ You can either create a docker image in your local host machine by modifying acc
 - Impact toolkit
 ### Information Gathering 
 - Shodan
+- Recon-ng
+- Reconspider
+- Xray
 ### Mobile Application Support (Android Only)
 - mobsf
 - adb
@@ -133,9 +136,9 @@ You can either create a docker image in your local host machine by modifying acc
 - Debian : Latest
 
 ## Under Development, stay tuned !! ;-)
-- Add more tools regarding web VAPT and Mobile VAPT
-- Add more tools related to team teaming
-- Shift the complete architecture to Multi-stage build concpet in docker to reduce the time of build and size of the image.
+- ~~Add more tools regarding web VAPT and Mobile VAPT~~
+- ~~Add more tools related to team teaming~~
+- ~~Shift the complete architecture to Multi-stage build concpet in docker to reduce the time of build and size of the image.~~
 
 <!--Lisence-->
 ## Licensing

@@ -11,134 +11,116 @@ pitch: Docker for Pentesters
 ---
 <!--Logo and Social Links-->
 
+# Docker for Pentesters
+
 ![Nightingale Logo](https://raw.githubusercontent.com/OWASP/www-project-nightingale/main/assets/images/Nightingale.png)
 
-[![OWASP Flagship](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)<br>
+[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
 
-![](https://img.shields.io/github/followers/RAJANAGORI?style=social)<br>
-![](https://img.shields.io/github/stars/RAJANAGORI?style=social)<br>
+![](https://img.shields.io/github/followers/RAJANAGORI?style=social)
+![](https://img.shields.io/github/stars/RAJANAGORI?style=social)
 [![](https://img.shields.io/badge/-Follow-black?style=social&logo=Linkedin)](https://www.linkedin.com/in/raja-nagori/) [![](https://img.shields.io/twitter/follow/RajaNagori7?style=social&label=Follow)](https://twitter.com/RajaNagori7)
-![profile count](https://komarev.com/ghpvc/?username=www-project-nightingale&color=blue)<br>
+![profile count](https://komarev.com/ghpvc/?username=www-project-nightingale&color=blue)
 [![Medium Badge](https://img.shields.io/badge/-@rajanagori-03a57a?style=flat-square&labelColor=000000&logo=Medium&link=https://medium.com/@rajanagori)](https://medium.com/@rajanagori)
 
+## Project Name: Nightingale
+==================================================
+## Docker for Pentesters: Pentesting Framework 
 
-
-<!--Description-->
 ## Description
-Docker containerization is most powerful technologies in the current market so I came with the idea to develop Docker images for Pentesters.
+In today's technological era, docker is the most powerful technology in each and every domain, whether it is Development, cyber security, DevOps, Automation, or Infrastructure.
 
-Nightingale contain all the required well-known tools that will be required to the Pentesters at the time of Penetration Testing. This docker image has a base support of Debian and it is completely platform Independent.
+Considering the demand of the industry, I would like to introduce my idea to create a NIGHTINGALE: docker image for pentesters.
 
-You can either create a docker image in your local host machine by modifying according to your requirements or you can directly pull the docker image from the docker hub itself.
+This docker image is ready to use environment will the required tools that are needed at the time of pentesting on any of the scopes, whether it can be web application penetration testing, network penetration testing, mobile, API, OSINT, or Forensics.
 
-## Device Requirements
-- Operating System: Windows, Mac, Linux
-- Docker engine installed as per the Operating System
+The best part is you can either create an altered docker image or pull the pre-built docker image from the hub.
 
-## Tools Category
-- Operating System tools (Windows, Mac, Linux)
-- Compression tools (7zip, tar, zip)
-- Development Essentials    (Git, GitLab, etc)
-- Programming Languages support (Python, Ruby, Java, etc)
-- Exploit Frameworks (Metasploit, Exploit-DB, etc)
-- Port Scanning tools (nmap, nikto, etc)
-- Network tools (Tcpdump, Ettercap, etc)
-- Forensic tools (SniffJoke, Wireshark, etc)
-- Red Team Tools (Metasploit, Ettercap, etc)
-- Information Gathering tools 
-## Tools List
+Some of the best features are listed below, I would highly recommend going through it and starting penetrating into the application.
+Link to access tool list : [tool list](https://owasp.org/www-project-nightingale/)
 
-### Operating System Tools
-- Vim
-- zsh
-- locate
-- tree
-- htop
-- snapd
-### Compression Techniques Tools
-- unzip 
-- p7zip-full
-### Development Essentials
-- git 
-- ruby  
-- ruby-dev 
-- bundler 
-- bison 
-- flex 
-- autoconf 
-- automake 
-- ruby-full 
-- make 
-- curl 
-- gnupg 
-- patch 
-- ruby-bundler 
-- nasm 
-- wget 
-- smbclient
-### Programming Language Support
-- Python
-- GO
-- Nodejs
-- Ruby
-### Exploit Framework
-- Metasploit
+### Pros
+1.	No need to install multiple programming language support and multiple modules.
+2.	Booting process is very fast as per the virtualization concept.
+3.	Need as per use resource of the host machine.
+4.	All pre-install tools are installed and if you install any new software or tool use can go with that option.
+5.	You can perform vulnerability assessment and penetration testing of any scope.
+6.	You can access this docker container via browser by calling your local address.
 
-### Web VAPT Tools
-- sqlmap
-- HawkScan
-- XSStrike
-- Whatweb
-- dirsearch
-- Arjun
-- Sublist3r
-- massdns
-- LinkedFinder
-- masscan
-- jwt_tool
-- dir
-- qreplace
-- gf
-- httprobe
-- assetfinder
-- waybackurls
-### Port Scanning Tools
-- Nmap
-- Masscan
-- Amass 
-### Network Tool
-- Traceroute
-- telnt
-- net-tools
-- iputils-ping
-- tcpdump
-- openvpn
-- whois
-- host
-- nmap
-### Forensics Tools
-- exiftool
-- steghide
-- binwalk
-- foremost
-### Red Team Tool
-- Impact toolkit
-### Information Gathering 
-- Shodan
-### Mobile Application Support (Android Only)
-- mobsf
-- adb
-- apktool
-- jadx
-### OS Selection
-- Debian : Latest
+### Cons
+1.  You can run the container over cloud server but can’t perform mobile pentesting.
+2.  Creating tunnel with SSH can’t help you to provide the connection to your physical device or virtual environment.
 
-## Under Development, stay tuned !! ;-)
-- Add more tools regarding web VAPT and Mobile VAPT
-- Add more tools related to team teaming
-- Shift the complete architecture to Multi-stage build concpet in docker to reduce the time of build and size of the image.
+### Why? 
+The Reason behind creating this Docker file is to make a platform-independent penetration toolkit. It includes all the useful tools that will be required for a penetration tester
+(You can refer to the tool list section for the same).
 
-<!--Lisence-->
-## Licensing
-This program is free software. Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed stated under GNU GENERAL PUBLIC LICENSE
+## Architecture Diagram of the NIGHTINGALE.
+[Diagram](https://github.com/RAJANAGORI/Nightingale/blob/main/assets/images/architecture.jpg)
+
+## Docker Image Build and Run 
+- Take a clone of the repository
+```
+git clone --depth 1 https://github.com/RAJANAGORI/Nightingale.git
+```
+- Change the Directory
+```
+cd Nightingale
+```
+- Now build the Docker Image.
+```
+docker build -t rajanagori/nightingale .
+```
+- After Creating the Docker Image, Login into the image and Happy Hacking.... ;-)
+```
+docker run -ti --hostname nightingale  rajanagori/nightingale /bin/bash
+```
+- Now, you can directly access Nightingale interactive terminal using the browser
+```
+docker run -it -p 0.0.0.0:8080:7681 -d rajanagori/nightingale /home/binaries/ttyd -p 7681 bash
+```
+- If you want to run MobSF along with the nightingale then I will give you good news now you can do the same....!!
+#### part 1
+```
+docker run -it -p 0.0.0.0:8080:7681 -p 0.0.0.0:8081:8081 -d rajanagori/nightingale /home/binaries/ttyd -p 7681 bash
+```
+#### part 2
+```
+cd /home/tools_mobile_vapt/Mobile-Security-Framework-MobSF/
+source venv/bin/activate
+./run 0.0.0.0:8081 &
+```
+- Call your browser and hit 127.0.0.1:8080 for the nightingale terminal and 127.0.0.1:8081 for MobFs to become you will be prooo!!!!
+
+- If you want to bind your host machine directory to your container directory then you can do the same.
+```
+docker run -it -p 0.0.0.0:8080:7681 -p 0.0.0.0:8081:8081 -v /<your_host_machine_directory_path>:/<your_container_directory_path> -d rajanagori/nightingale /home/binaries/ttyd -p 7681 bash
+```
+
+### For Localtunnel
+- Hit 127.0.0.1:8080 in your browser and you will be able to access the Nightingale terminal
+- Now, run the following command in your terminal
+```
+nvm install v16.14.0 && npm install -g localtunnel
+```
+and hit this command
+```
+lt --port 7681 --subdomain nightingale
+```
+Now, Click on the link generated and have fun with Nightingale !!!
+## To start, Restart and Stop the Postgresql database 
+- To start the service
+```
+service postgresql start
+```
+- To Restart the service
+```
+service postgresql restart
+```
+- To Stop the service
+```
+service postgresql stop
+```
+Note: Use of Postgresql is for msfConsole.
+
+Please feel free to contribute to the tool

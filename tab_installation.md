@@ -1,5 +1,5 @@
 ---
-title: Installation Guide
+title: Installation
 layout:  null
 altfooter: true
 tab: true

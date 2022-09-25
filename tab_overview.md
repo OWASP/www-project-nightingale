@@ -15,4 +15,4 @@ tags: Nightingale
 
 #### click on the image to see the video ;)
 
-[<img src="assets\images\Nightingale.png" width="30%" height="30%">](https://www.youtube.com/watch?v=1GYlH4-vQAw&list=PLbytsNUpQrWHrvHQysGaAov_MZoaQirre "Watch Video of demo of NIGHTINGALE")
+[<img src="assets\images\Nightingale.png" width="30%" height="30%">](https://youtu.be/CjEgyBZHnn4 "Watch Video of demo of NIGHTINGALE")

@@ -7,10 +7,6 @@ order: 2
 tags: Nightingale
 ---
 
-## This is How you can build the Docker Image of Nightingale
-
-![Docker Image Creation GIF](https://raw.githubusercontent.com/OWASP/www-project-nightingale/main/assets/images/Overview.gif)
-
 ## Want to see how you can run "NIGHTINGALE" in your local machine?
 
 #### click on the image to see the video ;)

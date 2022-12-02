@@ -11,7 +11,7 @@ pitch: Docker for Pentesters
 ---
 <!--Logo and Social Links-->
 
-![Nightingale Logo](assets\images\Nightingale.png)
+![Nightingale Logo](assets/images/Nightingale.png)
 
 [![OWASP Flagship](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory) 
 
@@ -107,6 +107,7 @@ The Reason behind creating this Docker file is to make a platform-independent pe
 - Metasploit
 
 ### Web VAPT Tools
+
 - sqlmap
 - HawkScan
 - XSStrike
@@ -157,11 +158,6 @@ The Reason behind creating this Docker file is to make a platform-independent pe
 - RMS
 ### OS Selection
 - Debian : Latest
-
-## Under Development, stay tuned !! ;-)
-- ~~Add more tools regarding web VAPT and Mobile VAPT~~
-- ~~Add more tools related to team teaming~~
-- ~~Shift the complete architecture to Multi-stage build concpet in docker to reduce the time of build and size of the image.~~
 
 <!--Lisence-->
 ## Licensing

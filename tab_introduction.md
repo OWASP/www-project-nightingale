@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 altfooter: true
-title: OWASP Nightingale
+title: Introduction
 tags: Nightingale
 level: 2
 type: tool

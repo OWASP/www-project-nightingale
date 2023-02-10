@@ -9,6 +9,8 @@ type: tool
 pitch: Docker for Pentesters
 
 ---
+
+![Nightingale Logo](assets/images/Nightingale.png)
 # Introduction
 
 Nightingale is an open-source tool that utilizes the power of Docker to provide a ready-to-use environment for penetration testers. With Nightingale, pentesters can easily set up and manage testing environments for web applications, network infrastructure, and other types of systems.

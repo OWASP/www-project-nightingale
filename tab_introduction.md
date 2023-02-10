@@ -10,9 +10,6 @@ pitch: Docker for Pentesters
 
 ---
 <!--Logo and Social Links-->
-
-![Nightingale Logo](assets/images/Nightingale.png)
-
 [![OWASP Flagship](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory) 
 
 ![](https://img.shields.io/github/followers/RAJANAGORI?style=social) 

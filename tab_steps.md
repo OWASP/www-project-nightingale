@@ -1,13 +1,10 @@
 ---
-
-layout: col-sidebar
+title: Installation and setup
+layout:  col-sidebar
 altfooter: true
-title: OWASP Nightingale
+tab: true
+order: 2
 tags: Nightingale
-level: 2
-type: tool
-pitch: Docker for Pentesters
-
 ---
 # Installation and Setup
 

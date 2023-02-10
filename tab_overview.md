@@ -1,13 +1,13 @@
 ---
 title: Overview
-layout:  null
+layout:  col-sidebar
 altfooter: true
 tab: true
 order: 2
 tags: Nightingale
 ---
 
-## Want to see how you can run "NIGHTINGALE" in your local machine?
+### Want to see how you can run "NIGHTINGALE" in your local machine?
 
 #### click on the image to see the video ;)
 

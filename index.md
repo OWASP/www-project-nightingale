@@ -9,157 +9,18 @@ type: tool
 pitch: Docker for Pentesters
 
 ---
-<!--Logo and Social Links-->
+# Introduction
 
-![Nightingale Logo](assets/images/Nightingale.png)
+Nightingale is an open-source tool that utilizes the power of Docker to provide a ready-to-use environment for penetration testers. With Nightingale, pentesters can easily set up and manage testing environments for web applications, network infrastructure, and other types of systems.
 
-[![OWASP Flagship](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory) 
+Docker is a powerful technology that allows users to create isolated environments for their applications. In the context of penetration testing, this means that testers can set up a testing environment that is consistent and repeatable, which can save time and effort when re-running tests.
 
-![](https://img.shields.io/github/followers/RAJANAGORI?style=social) 
-![](https://img.shields.io/github/stars/RAJANAGORI?style=social) 
-[![](https://img.shields.io/badge/-Follow-black?style=social&logo=Linkedin)](https://www.linkedin.com/in/raja-nagori/) [![](https://img.shields.io/twitter/follow/RajaNagori7?style=social&label=Follow)](https://twitter.com/RajaNagori7)
-![profile count](https://komarev.com/ghpvc/?username=www-project-nightingale&color=blue) 
-[![Medium Badge](https://img.shields.io/badge/-@rajanagori-03a57a?style=flat-square&labelColor=000000&logo=Medium&link=https://medium.com/@rajanagori)](https://medium.com/@rajanagori)
+One of the key advantages of Nightingale is that it eliminates the need to install multiple programming languages and modules. This can be a significant time-saver for pentesters, as it eliminates the need to go through the process of setting up and configuring a testing environment from scratch.
 
+Nightingale also allows pentesters to take advantage of the fast booting process that is inherent in virtualization. This means that testers can quickly spin up and tear down testing environments as needed, which can save time and make testing more efficient.
 
+Another advantage of Nightingale is that it is designed to be resource-efficient, which means that it only requires the resources that are needed at the time of testing. This can be particularly beneficial for testers who are working with limited resources.
 
-<!--Description-->
-## Description
-In today's technological era, docker is the most powerful technology in each and every domain, whether it is Development, cyber security, DevOps, Automation, or Infrastructure.
+Nightingale also allows pentesters to perform vulnerability assessment and penetration testing of any scope. It includes all the useful tools that are required for a penetration tester. And also it allows to access the environment via a browser by calling the local IP address.
 
-Considering the demand of the industry, I would like to introduce my idea to create a NIGHTINGALE: docker image for pentesters.
-
-This docker image is ready to use environment will the required tools that are needed at the time of pentesting on any of the scopes, whether it can be web application penetration testing, network penetration testing, mobile, API, OSINT, or Forensics.
-
-The best part is you can either create an altered docker image or pull the pre-built docker image from the hub.
-
-Some of the best features are listed below, I would highly recommend going through it and starting penetrating into the application.
-Link to access tool list : [tool list](https://owasp.org/www-project-nightingale/)
-
-### Pros
-1.	No need to install multiple programming language support and multiple modules.
-2.	Booting process is very fast as per the virtualization concept.
-3.	Need as per use resource of the host machine.
-4.	All pre-install tools are installed and if you install any new software or tool use can go with that option.
-5.	You can perform vulnerability assessment and penetration testing of any scope.
-6.	You can access this docker container via browser by calling your local address.
-
-### Cons
-1.  You can run the container over cloud server but can’t perform mobile pentesting.
-2.  Creating tunnel with SSH can’t help you to provide the connection to your physical device or virtual environment.
-
-Note: Nothing can be impossible, so I will definitely find a solution for the cons points 🤟
-
-### Why? 
-The Reason behind creating this Docker file is to make a platform-independent penetration toolkit. It includes all the useful tools that will be required for a penetration tester
-
-## Device Requirements
-- Operating System: Windows, Mac, Linux
-- Docker engine installed as per the Operating System
-
-## Tools Category
-- Operating System tools (Windows, Mac, Linux)
-- Compression tools (7zip, tar, zip)
-- Development Essentials (Git, GitLab, etc)
-- Programming Languages support (Python, Ruby, Java, etc)
-- Exploit Frameworks (Metasploit, Exploit-DB, etc)
-- Port Scanning tools (nmap,etc)
-- Network tools (Tcpdump, etc)
-- Forensic tools (exiftool,steghide, binwalk, foremost, etc)
-- Red Team Tools (Metasploit, etc)
-- Information Gathering tools 
-## Tools List
-
-### Operating System Tools
-- Vim
-- zsh
-- locate
-- tree
-- htop
-- snapd
-### Compression Techniques Tools
-- unzip 
-- p7zip-full
-### Development Essentials
-- git 
-- ruby  
-- ruby-dev 
-- bundler 
-- bison 
-- flex 
-- autoconf 
-- automake 
-- ruby-full 
-- make 
-- curl 
-- gnupg 
-- patch 
-- ruby-bundler 
-- nasm 
-- wget 
-- smbclient
-### Programming Language Support
-- Python
-- GO
-- Nodejs
-- Ruby
-### Exploit Framework
-- Metasploit
-
-### Web VAPT Tools
-
-- sqlmap
-- HawkScan
-- XSStrike
-- Whatweb
-- dirsearch
-- Arjun
-- Sublist3r
-- massdns
-- LinkedFinder
-- masscan
-- jwt_tool
-- qreplace
-- gf
-- httprobe
-- assetfinder
-- waybackurls
-### Port Scanning Tools
-- Nmap
-- Masscan
-- Amass 
-### Network Tool
-- Traceroute
-- telnt
-- net-tools
-- iputils-ping
-- tcpdump
-- openvpn
-- whois
-- host
-- nmap
-### Forensics Tools
-- exiftool
-- steghide
-- binwalk
-- foremost
-### Red Team Tool
-- Impact toolkit
-### Information Gathering 
-- Shodan
-- Recon-ng
-- Reconspider
-- Xray
-### Mobile Application Support (Android Only)
-- mobsf
-- adb
-- apktool
-- jadx
-- RMS
-### OS Selection
-- Debian : Latest
-
-<!--Lisence-->
-## Licensing
-This program is free software. Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed stated under GNU GENERAL PUBLIC LICENSE
+Overall, Nightingale is an incredibly useful tool for penetration testers, and its use of Docker makes it even more powerful. With Nightingale, testers can easily set up and manage testing environments, and can save time and effort when re-running tests. It's a platform-independent penetration toolkit that makes it easy for pentesters to perform their work in a consistent, repeatable, and efficient way.

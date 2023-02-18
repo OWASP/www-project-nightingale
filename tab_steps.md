@@ -5,6 +5,7 @@ altfooter: true
 title: Installation and steps
 tags: Nightingale
 level: 2
+order: 2
 type: tool
 pitch: Docker for Pentesters
 

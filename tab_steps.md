@@ -1,13 +1,11 @@
 ---
 
-layout: col-sidebar
-altfooter: true
-title: Installation and steps
+title: steps
+displaytext: Steps
+layout: null
 tags: Nightingale
-level: 2
 order: 3
 type: tool
-pitch: Docker for Pentesters
 
 ---
 # Installation and Setup

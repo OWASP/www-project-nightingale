@@ -1,13 +1,10 @@
 ---
-
-layout: col-sidebar
-altfooter: true
 title: Introduction
+displaytext: Introduction
+layout: null
 tags: Nightingale
-level: 2
 order: 2
 type: tool
-pitch: Docker for Pentesters
 
 ---
 <!--Logo and Social Links-->

@@ -1,13 +1,11 @@
 ---
 
-layout: col-sidebar
-altfooter: true
 title: Overview
+displaytext: Overview
+layout: null
 tags: Nightingale
-level: 2
 order: 4
 type: tool
-pitch: Docker for Pentesters
 
 ---
 

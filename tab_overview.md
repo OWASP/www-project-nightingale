@@ -2,7 +2,8 @@
 
 title: Overview
 displaytext: Overview
-layout: null
+layout:  col-sidebar
+tab: true
 tags: Nightingale
 order: 3
 type: tool

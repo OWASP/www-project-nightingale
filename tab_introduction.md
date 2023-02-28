@@ -1,7 +1,8 @@
 ---
 title: Introduction
 displaytext: Introduction
-layout: null
+layout:  col-sidebar
+tab: true
 tags: Nightingale
 order: 1
 type: tool

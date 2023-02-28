@@ -2,7 +2,8 @@
 
 title: steps
 displaytext: Steps
-layout: null
+layout:  col-sidebar
+tab: true
 tags: Nightingale
 order: 2
 type: tool

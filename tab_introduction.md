@@ -22,13 +22,7 @@ type: tool
 <!--Description-->
 # Nightingale: Docker for Pentesters
 
-Welcome to the Nightingale documentation! This guide will provide you with all the information you need to install and set up Nightingale, a powerful open-source tool that utilizes the power of Docker to provide a ready-to-use environment for penetration testing.&#x20;
-
-### Why Nightingale ?
-
-Penetration testing is a critical aspect of ensuring the security of any organization's IT infrastructure. However, setting up a testing environment can be time-consuming and complex, requiring the installation of multiple tools, frameworks, and programming languages. Additionally, maintaining consistency across different testing environments can be challenging. As a result, organizations often struggle to effectively perform penetration testing and identify vulnerabilities in their systems.
-
-Nightingale is an open-source tool that aims to address this problem by providing a ready-to-use environment for pentesters. By building on top of Docker, Nightingale eliminates the need to install multiple programming languages and modules, allowing for faster booting and more efficient resource usage on the host machine. Additionally, Nightingale includes a variety of pre-installed penetration testing tools and frameworks, making it easy for organizations to perform vulnerability assessments and penetration testing of any scope.
+Welcome to the Nightingale documentation! This guide will provide you with all the information you need to install and set up Nightingale, a powerful open-source tool that utilizes the power of Docker to provide a ready-to-use environment for penetration testing.
 
 ## Device Requirements
 - Operating System: Windows, Mac, Linux
@@ -94,7 +88,6 @@ Nightingale is an open-source tool that aims to address this problem by providin
 - Sublist3r
 - massdns
 - LinkedFinder
-- masscan
 - jwt_tool
 - qreplace
 - gf

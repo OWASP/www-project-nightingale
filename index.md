@@ -4,7 +4,7 @@ layout: col-sidebar
 title: OWASP Nightingale
 tags: Nightingale
 altfooter: true
-level: 0
+level: 2
 site_side: true
 
 ---

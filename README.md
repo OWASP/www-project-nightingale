@@ -1,14 +1,3 @@
----
-
-layout: col-sidebar
-altfooter: true
-title: OWASP Nightingale
-tags: Nightingale
-level: 2
-type: tool
-pitch: Docker for Pentesters
-
----
 <!--Logo and Social Links-->
 
 # Docker for Pentesters

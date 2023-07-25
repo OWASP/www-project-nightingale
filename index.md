@@ -25,3 +25,5 @@ Another advantage of Nightingale is that it is designed to be resource-efficient
 Nightingale also allows pentesters to perform vulnerability assessment and penetration testing of any scope. It includes all the useful tools that are required for a penetration tester. And also it allows to access the environment via a browser by calling the local IP address.
 
 Overall, Nightingale is an incredibly useful tool for penetration testers, and its use of Docker makes it even more powerful. With Nightingale, testers can easily set up and manage testing environments, and can save time and effort when re-running tests. It's a platform-independent penetration toolkit that makes it easy for pentesters to perform their work in a consistent, repeatable, and efficient way.
+
+For More Information [Nightingale Wiki](http://nightingale-wiki.gitbook.io/nightingale/)

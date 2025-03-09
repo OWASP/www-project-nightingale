@@ -1,7 +1,7 @@
 ---
 
-title: Tools List
-displaytext: Tools List
+title: List
+displaytext: List
 layout:  col-sidebar
 tab: true
 tags: Nightingale

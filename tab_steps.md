@@ -7,7 +7,6 @@ tab: true
 tags: Nightingale
 order: 4
 level: 2
-type: tool
 
 ---
 ### Here is a list of tools supported by Nightingale

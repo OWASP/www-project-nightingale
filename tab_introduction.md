@@ -6,7 +6,6 @@ tab: true
 tags: Nightingale
 order: 2
 level: 2
-type: tool
 
 ---
 ![Nightingale Logo](assets/images/Nightingale.png)

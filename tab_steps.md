@@ -5,7 +5,7 @@ displaytext: Tools List
 layout:  col-sidebar
 tab: true
 tags: Nightingale
-order: 2
+order: 4
 level: 2
 type: tool
 

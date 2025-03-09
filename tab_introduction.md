@@ -4,8 +4,9 @@ displaytext: Introduction
 layout:  col-sidebar
 tab: true
 tags: Nightingale
-order: 2
+order: 1
 level: 2
+type: tool
 
 ---
 ![Nightingale Logo](assets/images/Nightingale.png)

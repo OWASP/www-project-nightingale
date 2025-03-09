@@ -5,7 +5,6 @@ title: OWASP Nightingale
 tags: Nightingale
 altfooter: true
 level: 2
-order: 1
 site_side: true
 
 ---

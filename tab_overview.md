@@ -5,8 +5,9 @@ displaytext: Overview
 layout:  col-sidebar
 tab: true
 tags: Nightingale
-order: 3
+order: 2
 level: 2
+type: tool
 
 ---
 

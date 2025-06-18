@@ -1,0 +1,8 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  # Ruby dependencies (Jekyll site via Gemfile)
+  - package-ecosystem: "bundler"
+    directory: "/"    # Location of your Gemfile
+    schedule:
+      interval: "weekly"

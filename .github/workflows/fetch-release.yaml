@@ -1,4 +1,6 @@
 name: Fetch GitHub Releases
+permissions:
+  contents: write
 
 on:
   schedule:

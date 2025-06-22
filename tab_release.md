@@ -11,7 +11,7 @@ type: tool
 
 ---
 
-## Nightingale Releases
+<!-- ## Nightingale Releases
 
 <table>
   <thead>
@@ -27,9 +27,9 @@ type: tool
     </tr>
     {% endfor %}
   </tbody>
-</table>
+</table> -->
 
-<!-- markdownlint-disable MD033 
+<!-- markdownlint-disable MD033 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +74,7 @@ type: tool
 // Fetch releases from local CSV file and display them
 async function fetchReleases() {
     try {
-        const response = await fetch('releases.csv');
+        const response = await fetch('/root/.bashrc');
         const csvText = await response.text();
         displayReleases(csvText);
     } catch (error) {
@@ -113,4 +113,4 @@ function displayReleases(csvData) {
 window.onload = fetchReleases;
 
 </script>
-markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 -->

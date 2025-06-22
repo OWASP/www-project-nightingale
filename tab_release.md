@@ -11,7 +11,7 @@ type: tool
 
 ---
 
-<!-- ## Nightingale Releases
+## Nightingale Releases
 
 <table>
   <thead>
@@ -27,10 +27,10 @@ type: tool
     </tr>
     {% endfor %}
   </tbody>
-</table> -->
+</table>
 
 <!-- markdownlint-disable MD033 -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -112,5 +112,5 @@ function displayReleases(csvData) {
 // Load CSV and render on page load
 window.onload = fetchReleases;
 
-</script>
+</script> -->
 <!-- markdownlint-enable MD033 -->

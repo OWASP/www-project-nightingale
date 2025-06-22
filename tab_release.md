@@ -10,7 +10,26 @@ level: 2
 type: tool
 
 ---
-<!-- markdownlint-disable MD033 -->
+
+## Nightingale Releases
+
+<table>
+  <thead>
+    <tr><th>Name</th><th>Tag</th><th>Published</th><th>URL</th></tr>
+  </thead>
+  <tbody>
+    {% for r in site.data.releases %}
+    <tr>
+      <td>{{ r.name }}</td>
+      <td>{{ r.tag_name }}</td>
+      <td>{{ r.published_at | date: "%Y-%m-%d" }}</td>
+      <td><a href="{{ r.html_url }}">{{ r.html_url }}</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<!-- markdownlint-disable MD033 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +74,7 @@ type: tool
 // Fetch releases from local CSV file and display them
 async function fetchReleases() {
     try {
-        const response = await fetch('/releases.csv');
+        const response = await fetch('releases.csv');
         const csvText = await response.text();
         displayReleases(csvText);
     } catch (error) {
@@ -94,4 +113,4 @@ function displayReleases(csvData) {
 window.onload = fetchReleases;
 
 </script>
-<!-- markdownlint-enable MD033 -->
+markdownlint-enable MD033 -->

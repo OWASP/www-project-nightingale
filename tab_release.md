@@ -1,3 +1,56 @@
+---
+
+title: Release
+displaytext: Release
+layout: col-sidebar
+tab: true
+tags: Nightingale
+order: 4
+level: 2
+type: tool
+
+---
+<!-- markdownlint-disable MD033 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightingale Releases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h2>Nightingale Releases</h2>
+<ul id="release-list"></ul>
+<div id="release-container"></div>
+
 <script>
 // Fetch releases from local CSV file and display them
 async function fetchReleases() {
@@ -39,4 +92,6 @@ function displayReleases(csvData) {
 
 // Load CSV and render on page load
 window.onload = fetchReleases;
+
 </script>
+<!-- markdownlint-enable MD033 -->

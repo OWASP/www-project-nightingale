@@ -1,65 +1,42 @@
----
-
-title: Release
-displaytext: Release
-layout: col-sidebar
-tab: true
-tags: Nightingale
-order: 4
-level: 2
-type: tool
-
----
-<h2>Nightingale Releases</h2>
-<ul id="release-list"></ul>
-<div id="release-container"></div>
-
 <script>
-// Fetch releases from GitHub and store them in a CSV file
+// Fetch releases from local CSV file and display them
 async function fetchReleases() {
     try {
-        const response = await fetch("https://api.github.com/repos/RAJANAGORI/Nightingale/releases");
-        const data = await response.json();
-        
-        // Convert JSON to CSV format
-        let csvContent = "tag_name,published_at,html_url\n";
-        data.forEach(release => {
-            csvContent += `${release.tag_name},${release.published_at},${release.html_url}\n`;
-        });
-        
-        // Store in local storage (or backend API if needed)
-        localStorage.setItem("github_releases", csvContent);
-        
-        displayReleases(csvContent);
+        const response = await fetch('/releases.csv');
+        const csvText = await response.text();
+        displayReleases(csvText);
     } catch (error) {
-        console.error("Error fetching releases:", error);
+        console.error('Error fetching releases CSV:', error);
     }
 }
 
-// Display data from CSV in a table
 function displayReleases(csvData) {
-    let rows = csvData.split("\n").filter(row => row.trim() !== "");
-    if (rows.length <= 1) return; // No valid data to display
-    
-    let table = `<table border='1'><tr><th>Tag</th><th>Published Date</th><th>URL</th></tr>`;
-    
-    rows.slice(1).forEach(row => {
-        let cols = row.split(",");
-        if (cols.length < 3) return; // Skip malformed rows
-        table += `<tr><td>${cols[0]}</td><td>${new Date(cols[1]).toDateString()}</td><td><a href='${cols[2]}' target='_blank'>Link</a></td></tr>`;
+    const rows = csvData.trim().split('\n');
+    if (rows.length === 0) return;
+
+    let table = `<table border="1"><tr><th>Tag</th><th>Published Date</th><th>URL</th></tr>`;
+
+    rows.forEach(row => {
+        const cols = row.split(',');
+        if (cols.length < 3) return;
+
+        // Remove surrounding quotes
+        const tag = cols[0].replace(/^"|"$/g, '');
+        const published = cols[1].replace(/^"|"$/g, '');
+        const url = cols.slice(2).join(',').replace(/^"|"$/g, '');
+
+        const dateStr = new Date(published).toDateString();
+        table += `<tr>` +
+                 `<td>${tag}</td>` +
+                 `<td>${dateStr}</td>` +
+                 `<td><a href="${url}" target="_blank">${url}</a></td>` +
+                 `</tr>`;
     });
-    table += "</table>";
-    
-    document.getElementById("release-container").innerHTML = table;
+
+    table += `</table>`;
+    document.getElementById('release-container').innerHTML = table;
 }
 
-// Load data when the page loads
-window.onload = () => {
-    let storedData = localStorage.getItem("github_releases");
-    if (storedData) {
-        displayReleases(storedData);
-    } else {
-        fetchReleases();
-    }
-};
+// Load CSV and render on page load
+window.onload = fetchReleases;
 </script>

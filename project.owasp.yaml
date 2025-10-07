@@ -1,0 +1,27 @@
+audience:
+  - breaker
+  - builder
+leaders:
+  - name: Raja Nagori
+    email: raja.nagori@owasp.org
+    github: RAJANAGORI
+level: 2
+license:
+  - GPL-3.0
+name: OWASP Nightingale
+pitch: Description for OWASP Nightingale
+repositories:
+  - name: www-project-nightingale
+    url: https://github.com/OWASP/www-project-nightingale
+    description: OWASP Foundation Web Repository
+  - name: Nightingale
+    url: https://github.com/RAJANAGORI/Nightingale
+    description: Nightingale Docker for Pentesters is a comprehensive Dockerized environment tailored for penetration testing and vulnerability assessment.
+      It comes preconfigured with all essential tools and utilities required for efficient Vulnerability Assessment and Penetration Testing (VAPT), streamlining
+      the setup process for security professionals.
+tags:
+  - Nightingale
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-nightingale

@@ -11,7 +11,7 @@ site_side: true
 
 Welcome to the Nightingale documentation! This guide will provide you with all the information you need to install and set up Nightingale, a powerful open-source tool that utilizes the power of Docker to provide a ready-to-use environment for penetration testing.
 
-<figure><img src="https://github.com/RAJANAGORI/Nightingale/blob/main/assets/images/Nightingale.png" alt=""><figcaption></figcaption></figure>
+![Nightingale Logo](assets/images/Nightingale.png)
 
 ### Why Nightingale?
 

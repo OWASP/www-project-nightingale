@@ -5,7 +5,7 @@ displaytext: Release
 layout: col-sidebar
 tab: true
 tags: Nightingale
-order: 4
+order: 5
 level: 2
 type: tool
 

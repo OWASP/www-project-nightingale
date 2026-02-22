@@ -9,7 +9,7 @@ level: 2
 type: tool
 
 ---
-![Nightingale Logo](assets/images/Nightingale.png)
+![](https://github.com/RAJANAGORI/Nightingale/blob/main/assets/images/cover.png)
 
 Nightingale is an open-source tool leveraging Docker to provide a ready-to-use environment for penetration testers. It simplifies the setup and management of testing environments for web applications, network infrastructure, and other systems.
 
